@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState, useRef, useMemo } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import dynamic from 'next/dynamic';
 
 // Dynamic import for Globe.gl to avoid SSR issues
@@ -15,11 +15,10 @@ interface GlobePoint {
   size: number;
   color: string;
   label: string;
-  details: any;
+  details: unknown;
 }
 
 export default function Home() {
-  const globeEl = useRef<any>();
   const [points, setPoints] = useState<GlobePoint[]>([]);
   const [loading, setLoading] = useState(true);
 
@@ -30,11 +29,9 @@ export default function Home() {
         const data = await response.json();
         
         // Transform fatalities into points
-        // If 'killed' is 5, we create 5 slightly jittered points or 1 weighted point.
-        // The user asked for "1 red dot per fatality", so we'll jitter them slightly.
         const fatalityPoints: GlobePoint[] = [];
         
-        data.forEach((record: any) => {
+        data.forEach((record: { lat?: number; lng?: number; killed: number; mineName: string; city: string; state: string }) => {
           if (record.lat && record.lng && record.killed > 0) {
             for (let i = 0; i < record.killed; i++) {
               // Add small random jitter so they don't perfectly overlap
@@ -62,7 +59,6 @@ export default function Home() {
     fetchData();
   }, []);
 
-  // Using a separate component for the actual Globe to handle the ref correctly
   return (
     <main className="h-screen w-screen bg-black overflow-hidden relative">
       <div className="absolute top-4 left-4 z-10 text-white pointer-events-none">
@@ -83,13 +79,17 @@ export default function Home() {
 
 // Wrapper to handle globe.gl client-side
 function GlobeWrapper({ points }: { points: GlobePoint[] }) {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const globeRef = useRef<any>();
 
   useEffect(() => {
     if (globeRef.current) {
       // Configure globe
-      globeRef.current.controls().autoRotate = true;
-      globeRef.current.controls().autoRotateSpeed = 0.5;
+      const controls = globeRef.current.controls();
+      if (controls) {
+        controls.autoRotate = true;
+        controls.autoRotateSpeed = 0.5;
+      }
     }
   }, []);
 

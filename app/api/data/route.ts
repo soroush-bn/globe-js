@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { getRawData, FatalityRecord, GeocodedLocation } from '@/lib/data-utils';
+import { getRawData, GeocodedLocation } from '@/lib/data-utils';
 import fs from 'fs';
 import path from 'path';
 
@@ -9,7 +9,7 @@ export async function GET() {
     
     // Try to load geocoded locations
     const geocodePath = path.join(process.cwd(), 'public', 'geocoded_locations.json');
-    let geocodedMap: Record<string, { lat: number, lng: number }> = {};
+    const geocodedMap: Record<string, { lat: number, lng: number }> = {};
     
     if (fs.existsSync(geocodePath)) {
       const geocodeData: GeocodedLocation[] = JSON.parse(fs.readFileSync(geocodePath, 'utf-8'));
