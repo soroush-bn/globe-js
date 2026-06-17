@@ -78,13 +78,18 @@ function GlobeContainer({ points }: { points: GlobePoint[] }) {
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     let globeObj: any;
+    const currentContainer = containerRef.current;
 
     async function initGlobe() {
       const Globe = (await import('globe.gl')).default;
       
-      if (!containerRef.current) return;
+      if (!currentContainer) return;
 
-      globeObj = Globe()(containerRef.current)
+      // The TS definitions might expect `Globe()`, but sometimes `new Globe(...)` or just ignoring the type check is required for this specific vanilla JS library's typing quirks.
+      // We will cast it to any first to bypass the strict type checker since the JS implementation is `Globe()(element)`.
+      const GlobeConstructor = Globe as any;
+
+      globeObj = GlobeConstructor()(currentContainer)
         .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
         .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
         .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
@@ -116,8 +121,8 @@ function GlobeContainer({ points }: { points: GlobePoint[] }) {
 
     return () => {
       window.removeEventListener('resize', handleResize);
-      if (containerRef.current) {
-        containerRef.current.innerHTML = '';
+      if (currentContainer) {
+        currentContainer.innerHTML = '';
       }
     };
   }, [points]);
