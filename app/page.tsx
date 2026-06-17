@@ -1,13 +1,6 @@
 'use client';
 
 import React, { useEffect, useState, useRef } from 'react';
-import dynamic from 'next/dynamic';
-
-// Dynamic import for Globe.gl to avoid SSR issues
-const Globe = dynamic(() => import('globe.gl'), { 
-  ssr: false,
-  loading: () => <div className="flex h-screen w-screen items-center justify-center bg-black text-white">Loading Globe...</div>
-});
 
 interface GlobePoint {
   lat: number;
@@ -28,13 +21,11 @@ export default function Home() {
         const response = await fetch('/api/data');
         const data = await response.json();
         
-        // Transform fatalities into points
         const fatalityPoints: GlobePoint[] = [];
         
         data.forEach((record: { lat?: number; lng?: number; killed: number; mineName: string; city: string; state: string }) => {
           if (record.lat && record.lng && record.killed > 0) {
             for (let i = 0; i < record.killed; i++) {
-              // Add small random jitter so they don't perfectly overlap
               const jitter = 0.05;
               fatalityPoints.push({
                 lat: record.lat + (Math.random() - 0.5) * jitter,
@@ -68,7 +59,7 @@ export default function Home() {
         {!loading && <p className="mt-1">{points.length} fatalities mapped</p>}
       </div>
 
-      <GlobeWrapper points={points} />
+      <GlobeContainer points={points} />
       
       <div className="absolute bottom-4 right-4 z-10 text-white text-xs opacity-50">
         Data from Mining disasters.xlsx
@@ -77,39 +68,59 @@ export default function Home() {
   );
 }
 
-// Wrapper to handle globe.gl client-side
-function GlobeWrapper({ points }: { points: GlobePoint[] }) {
+function GlobeContainer({ points }: { points: GlobePoint[] }) {
+  const containerRef = useRef<HTMLDivElement>(null);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const globeRef = useRef<any>();
+  const globeInstance = useRef<any>(null);
 
   useEffect(() => {
-    if (globeRef.current) {
-      // Configure globe
-      const controls = globeRef.current.controls();
-      if (controls) {
-        controls.autoRotate = true;
-        controls.autoRotateSpeed = 0.5;
-      }
-    }
-  }, []);
+    if (typeof window === 'undefined' || !containerRef.current) return;
 
-  return (
-    <div className="w-full h-full">
-      <Globe
-        ref={globeRef}
-        globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
-        bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-        backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
-        
-        pointsData={points}
-        pointLat="lat"
-        pointLng="lng"
-        pointColor="color"
-        pointRadius="size"
-        pointsMerge={true}
-        pointAltitude={0.01}
-        pointLabel="label"
-      />
-    </div>
-  );
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let globeObj: any;
+
+    async function initGlobe() {
+      const Globe = (await import('globe.gl')).default;
+      
+      if (!containerRef.current) return;
+
+      globeObj = Globe()(containerRef.current)
+        .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
+        .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
+        .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
+        .pointsData(points)
+        .pointLat('lat')
+        .pointLng('lng')
+        .pointColor('color')
+        .pointRadius('size')
+        .pointsMerge(true)
+        .pointAltitude(0.01)
+        .pointLabel('label');
+
+      globeObj.controls().autoRotate = true;
+      globeObj.controls().autoRotateSpeed = 0.5;
+      
+      globeInstance.current = globeObj;
+    }
+
+    initGlobe();
+
+    const handleResize = () => {
+      if (globeObj) {
+        globeObj.width(window.innerWidth);
+        globeObj.height(window.innerHeight);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      if (containerRef.current) {
+        containerRef.current.innerHTML = '';
+      }
+    };
+  }, [points]);
+
+  return <div ref={containerRef} className="w-full h-full" />;
 }
