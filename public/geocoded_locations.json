@@ -1,0 +1,2990 @@
+[
+  {
+    "city": "Adamson",
+    "state": "OK",
+    "lat": 34.9239867,
+    "lng": -95.5472039
+  },
+  {
+    "city": "Princeton",
+    "state": "IN",
+    "lat": 38.355439,
+    "lng": -87.5678034
+  },
+  {
+    "city": "Wilsonburg",
+    "state": "WV",
+    "lat": 39.292589,
+    "lng": -80.3962022
+  },
+  {
+    "city": "Dawson",
+    "state": "MN",
+    "lat": 44.932738,
+    "lng": -96.054481
+  },
+  {
+    "city": "Irondale",
+    "state": "AL",
+    "lat": 33.5381601,
+    "lng": -86.7072102
+  },
+  {
+    "city": "Boswell",
+    "state": "PA",
+    "lat": 40.1614651,
+    "lng": -79.0289161
+  },
+  {
+    "city": "Providence",
+    "state": "KY",
+    "lat": 37.397545,
+    "lng": -87.7627898
+  },
+  {
+    "city": "Van Lear",
+    "state": "KY",
+    "lat": 37.7712067,
+    "lng": -82.7579371
+  },
+  {
+    "city": "Hastings",
+    "state": "CO",
+    "lat": 40.5861322,
+    "lng": -98.3898883
+  },
+  {
+    "city": "Kellogg",
+    "state": "ID",
+    "lat": 47.5382349,
+    "lng": -116.118887
+  },
+  {
+    "city": "Hibernia",
+    "state": "NJ",
+    "lat": 40.9459413,
+    "lng": -74.4944839
+  },
+  {
+    "city": "Tacoma",
+    "state": "WA",
+    "lat": 47.2455013,
+    "lng": -122.438329
+  },
+  {
+    "city": "Albia",
+    "state": "IA",
+    "lat": 41.0264561,
+    "lng": -92.8075217
+  },
+  {
+    "city": "Straven",
+    "state": "AL",
+    "lat": 33.2195599,
+    "lng": -86.8897122
+  },
+  {
+    "city": "Cassville",
+    "state": "WV",
+    "lat": 39.6772485,
+    "lng": -80.0685686
+  },
+  {
+    "city": "Roslyn",
+    "state": "WA",
+    "lat": 47.2230352,
+    "lng": -120.993359
+  },
+  {
+    "city": "Bodie",
+    "state": "CA",
+    "lat": 38.2114891,
+    "lng": -119.0125867
+  },
+  {
+    "city": "Shullsburg",
+    "state": "WI",
+    "lat": 42.5724982,
+    "lng": -90.2326817
+  },
+  {
+    "city": "Delta",
+    "state": "PA",
+    "lat": 39.727049,
+    "lng": -76.3266255
+  },
+  {
+    "city": "Ducktown",
+    "state": "TN",
+    "lat": 35.0359126,
+    "lng": -84.3827013
+  },
+  {
+    "city": "Locustdale",
+    "state": "PA",
+    "lat": 40.7777592,
+    "lng": -76.3766146
+  },
+  {
+    "city": "West Rutland",
+    "state": "VT",
+    "lat": 43.5932378,
+    "lng": -73.0459832
+  },
+  {
+    "city": "Ravensdale",
+    "state": "WA",
+    "lat": 47.3558961,
+    "lng": -121.9848707
+  },
+  {
+    "city": "Fayette City",
+    "state": "PA",
+    "lat": 40.1003509,
+    "lng": -79.840601
+  },
+  {
+    "city": "Moffat",
+    "state": "AL",
+    "lat": 33.0531767,
+    "lng": -87.1830524
+  },
+  {
+    "city": "Stone City",
+    "state": "KS",
+    "lat": 42.1135345,
+    "lng": -91.3501959
+  },
+  {
+    "city": "Kettle Island",
+    "state": "KY",
+    "lat": 36.7906417,
+    "lng": -83.6051935
+  },
+  {
+    "city": "Franklin",
+    "state": "MD",
+    "lat": 39.4991395,
+    "lng": -79.0509021
+  },
+  {
+    "city": "Treece",
+    "state": "KS",
+    "lat": 37.0009005,
+    "lng": -94.8432847
+  },
+  {
+    "city": "Bentleyville",
+    "state": "PA",
+    "lat": 40.1167387,
+    "lng": -80.0083855
+  },
+  {
+    "city": "Three Point",
+    "state": "KY",
+    "lat": 36.763421,
+    "lng": -83.260179
+  },
+  {
+    "city": "Winterpock",
+    "state": "VA",
+    "lat": 37.3459831,
+    "lng": -77.7194396
+  },
+  {
+    "city": "Seward",
+    "state": "PA",
+    "lat": 40.4142379,
+    "lng": -79.0200291
+  },
+  {
+    "city": "Birmingham",
+    "state": "AL",
+    "lat": 33.5206824,
+    "lng": -86.8024326
+  },
+  {
+    "city": "Everettville",
+    "state": "WV",
+    "lat": 39.5636942,
+    "lng": -80.0631266
+  },
+  {
+    "city": "Happy, Perry Co.",
+    "state": "KY",
+    "lat": 37.2039848,
+    "lng": -83.0965567
+  },
+  {
+    "city": "Cherry",
+    "state": "IL",
+    "lat": 41.4269787,
+    "lng": -89.213419
+  },
+  {
+    "city": "Elk Garden",
+    "state": "WV",
+    "lat": 39.383657,
+    "lng": -79.1564516
+  },
+  {
+    "city": "Renton",
+    "state": "PA",
+    "lat": 40.5017344,
+    "lng": -79.7264352
+  },
+  {
+    "city": "McCurtain",
+    "state": "OK",
+    "lat": 34.1450295,
+    "lng": -94.7802324
+  },
+  {
+    "city": "Wadesville",
+    "state": "PA",
+    "lat": 40.7162315,
+    "lng": -76.206924
+  },
+  {
+    "city": "Fredericktown",
+    "state": "PA",
+    "lat": 39.999742,
+    "lng": -79.9974468
+  },
+  {
+    "city": "Stockton",
+    "state": "PA",
+    "lat": 30.9905875,
+    "lng": -87.8606214
+  },
+  {
+    "city": "McGill",
+    "state": "NV",
+    "lat": 39.400517,
+    "lng": -114.7777867
+  },
+  {
+    "city": "Carmichaels",
+    "state": "PA",
+    "lat": 39.8967425,
+    "lng": -79.9744992
+  },
+  {
+    "city": "Hyden",
+    "state": "KY",
+    "lat": 37.1609254,
+    "lng": -83.3732373
+  },
+  {
+    "city": "Jackson",
+    "state": "CA",
+    "lat": 38.3488024,
+    "lng": -120.774101
+  },
+  {
+    "city": "Dawson",
+    "state": "NM",
+    "lat": 36.6636374,
+    "lng": -104.7753256
+  },
+  {
+    "city": "Nortonville",
+    "state": "KY",
+    "lat": 37.1908777,
+    "lng": -87.4527768
+  },
+  {
+    "city": "Terre Haute",
+    "state": "IN",
+    "lat": 39.4667025,
+    "lng": -87.4139119
+  },
+  {
+    "city": "Glen Carbon",
+    "state": "PA",
+    "lat": 40.7149524,
+    "lng": -76.3158828
+  },
+  {
+    "city": "Blossburg",
+    "state": "NM",
+    "lat": 36.9208579,
+    "lng": -104.4980439
+  },
+  {
+    "city": "Beckley",
+    "state": "WV",
+    "lat": 37.7781702,
+    "lng": -81.1881557
+  },
+  {
+    "city": "Nelson",
+    "state": "KY",
+    "lat": 37.8078463,
+    "lng": -85.4741595
+  },
+  {
+    "city": "Castle Gate",
+    "state": "UT",
+    "lat": 39.7325222,
+    "lng": -110.8509112
+  },
+  {
+    "city": "Trinidad",
+    "state": "CO",
+    "lat": 37.169397,
+    "lng": -104.500541
+  },
+  {
+    "city": "Millfield",
+    "state": "OH",
+    "lat": 39.4328491,
+    "lng": -82.0968114
+  },
+  {
+    "city": "Earlington",
+    "state": "KY",
+    "lat": 37.2742117,
+    "lng": -87.5119435
+  },
+  {
+    "city": "Ensley",
+    "state": "AL",
+    "lat": 33.5095505,
+    "lng": -86.8861029
+  },
+  {
+    "city": "Pine Creek",
+    "state": "WV",
+    "lat": 37.7517704,
+    "lng": -82.0923515
+  },
+  {
+    "city": "Sleepy Hollow",
+    "state": "CO",
+    "lat": 39.6985458,
+    "lng": -105.2515138
+  },
+  {
+    "city": "Port Griffith",
+    "state": "PA",
+    "lat": 41.3118237,
+    "lng": -75.8114803
+  },
+  {
+    "city": "Mulberry",
+    "state": "KS",
+    "lat": 37.5569911,
+    "lng": -94.6219034
+  },
+  {
+    "city": "Century",
+    "state": "WV",
+    "lat": 39.101053,
+    "lng": -80.1891743
+  },
+  {
+    "city": "Black Diamond",
+    "state": "WA",
+    "lat": 47.3083078,
+    "lng": -122.0037583
+  },
+  {
+    "city": "Ashville",
+    "state": "NC",
+    "lat": 35.7395147,
+    "lng": -78.7835348
+  },
+  {
+    "city": "Christopher",
+    "state": "IL",
+    "lat": 37.9725501,
+    "lng": -89.053408
+  },
+  {
+    "city": "Lutie",
+    "state": "OK",
+    "lat": 34.9234323,
+    "lng": -95.2619142
+  },
+  {
+    "city": "United",
+    "state": "WV",
+    "lat": 37.9906638,
+    "lng": -81.4264987
+  },
+  {
+    "city": "Freeland",
+    "state": "PA",
+    "lat": 41.0167508,
+    "lng": -75.8971431
+  },
+  {
+    "city": "Mather",
+    "state": "PA",
+    "lat": 39.934797,
+    "lng": -80.0736687
+  },
+  {
+    "city": "Mahanoy Plane",
+    "state": "PA",
+    "lat": 40.7945327,
+    "lng": -76.241888
+  },
+  {
+    "city": "Fletcher",
+    "state": "NC",
+    "lat": 35.4309336,
+    "lng": -82.5011239
+  },
+  {
+    "city": "Thacker",
+    "state": "WV",
+    "lat": 37.5945501,
+    "lng": -82.1315207
+  },
+  {
+    "city": "Palatka",
+    "state": "MI",
+    "lat": 46.0496777,
+    "lng": -88.6240206
+  },
+  {
+    "city": "Middlesboro",
+    "state": "KY",
+    "lat": 36.6072968,
+    "lng": -83.7143317
+  },
+  {
+    "city": "Standard",
+    "state": "WA",
+    "lat": 47.5762745,
+    "lng": -122.1405674
+  },
+  {
+    "city": "Spring Gulch",
+    "state": "CO",
+    "lat": 40.1889692,
+    "lng": -105.0641579
+  },
+  {
+    "city": "Belle Ellen",
+    "state": "AL",
+    "lat": 33.1245632,
+    "lng": -87.057216
+  },
+  {
+    "city": "Daniel Boone",
+    "state": "KY",
+    "lat": 37.1786558,
+    "lng": -87.5075
+  },
+  {
+    "city": "Laing",
+    "state": "WV",
+    "lat": 38.0364961,
+    "lng": -81.4281664
+  },
+  {
+    "city": "Franklin",
+    "state": "WA",
+    "lat": 46.5654696,
+    "lng": -118.8935483
+  },
+  {
+    "city": "Horning",
+    "state": "PA",
+    "lat": 40.3375696,
+    "lng": -79.9914409
+  },
+  {
+    "city": "Granville",
+    "state": "NY",
+    "lat": 43.408041,
+    "lng": -73.259583
+  },
+  {
+    "city": "Dola",
+    "state": "WV",
+    "lat": 39.376476,
+    "lng": -80.4217573
+  },
+  {
+    "city": "Dow",
+    "state": "OK",
+    "lat": 34.8764147,
+    "lng": -95.599974
+  },
+  {
+    "city": "McCoy",
+    "state": "VA",
+    "lat": 37.2170696,
+    "lng": -80.5978382
+  },
+  {
+    "city": "Bates",
+    "state": "AR",
+    "lat": 34.9081561,
+    "lng": -94.3868845
+  },
+  {
+    "city": "Carpentertown",
+    "state": "PA",
+    "lat": 40.1853489,
+    "lng": -79.5164272
+  },
+  {
+    "city": "Red Ash",
+    "state": "WV",
+    "lat": 37.9626558,
+    "lng": -81.0454942
+  },
+  {
+    "city": "Treadwell",
+    "state": "AK",
+    "lat": 58.2663664,
+    "lng": -134.3793908
+  },
+  {
+    "city": "Cerrillos",
+    "state": "NM",
+    "lat": 35.4372052,
+    "lng": -106.1260256
+  },
+  {
+    "city": "Huntington",
+    "state": "UT",
+    "lat": 39.3266354,
+    "lng": -110.964611
+  },
+  {
+    "city": "Osage",
+    "state": "WV",
+    "lat": 39.65948,
+    "lng": -80.0054019
+  },
+  {
+    "city": "Mount Harris",
+    "state": "CO",
+    "lat": 40.4835857,
+    "lng": -107.144778
+  },
+  {
+    "city": "Sonman",
+    "state": "PA",
+    "lat": 40.3950734,
+    "lng": -78.6591853
+  },
+  {
+    "city": "Ernest",
+    "state": "PA",
+    "lat": 40.678121,
+    "lng": -79.1617024
+  },
+  {
+    "city": "Bellaire",
+    "state": "OH",
+    "lat": 40.0161843,
+    "lng": -80.7423054
+  },
+  {
+    "city": "Richmond",
+    "state": "VA",
+    "lat": 37.5385087,
+    "lng": -77.43428
+  },
+  {
+    "city": "Scarboro",
+    "state": "WV",
+    "lat": 39.3336479,
+    "lng": -78.0495927
+  },
+  {
+    "city": "Delagua",
+    "state": "CO",
+    "lat": 37.1433543,
+    "lng": -104.5011202
+  },
+  {
+    "city": "Virginia City",
+    "state": "AL",
+    "lat": 39.3108133,
+    "lng": -119.649517
+  },
+  {
+    "city": "Williamstown",
+    "state": "PA",
+    "lat": 40.5800868,
+    "lng": -76.617742
+  },
+  {
+    "city": "Aguilar",
+    "state": "CO",
+    "lat": 37.4027931,
+    "lng": -104.653318
+  },
+  {
+    "city": "Bessemer",
+    "state": "AL",
+    "lat": 33.4017766,
+    "lng": -86.954437
+  },
+  {
+    "city": "Kermit",
+    "state": "WV",
+    "lat": 37.8382779,
+    "lng": -82.4079332
+  },
+  {
+    "city": "Silverton",
+    "state": "CO",
+    "lat": 37.8115318,
+    "lng": -107.6643647
+  },
+  {
+    "city": "Capels",
+    "state": "WV",
+    "lat": 37.4545576,
+    "lng": -81.6014962
+  },
+  {
+    "city": "Rains",
+    "state": "UT",
+    "lat": 39.7151056,
+    "lng": -110.963043
+  },
+  {
+    "city": "Dilltown",
+    "state": "PA",
+    "lat": 40.4664591,
+    "lng": -79.0025291
+  },
+  {
+    "city": "Robbins",
+    "state": "OH",
+    "lat": 40.1611824,
+    "lng": -80.7431378
+  },
+  {
+    "city": "Sullivan",
+    "state": "IN",
+    "lat": 39.0492722,
+    "lng": -87.4172644
+  },
+  {
+    "city": "Apache Junction",
+    "state": "AZ",
+    "lat": 33.4150485,
+    "lng": -111.549577
+  },
+  {
+    "city": "Calumet",
+    "state": "MI",
+    "lat": 47.246592,
+    "lng": -88.454006
+  },
+  {
+    "city": "Ashley",
+    "state": "PA",
+    "lat": 41.2119643,
+    "lng": -75.9005283
+  },
+  {
+    "city": "Superior",
+    "state": "AZ",
+    "lat": 33.293945,
+    "lng": -111.09623
+  },
+  {
+    "city": "Brookfield",
+    "state": "OH",
+    "lat": 41.2342009,
+    "lng": -80.5680159
+  },
+  {
+    "city": "Morrison",
+    "state": "CO",
+    "lat": 39.6535988,
+    "lng": -105.191099
+  },
+  {
+    "city": "Branch Dale",
+    "state": "PA",
+    "lat": 40.4092016,
+    "lng": -75.6164173
+  },
+  {
+    "city": "Sandoval",
+    "state": "IL",
+    "lat": 38.6156043,
+    "lng": -89.1142343
+  },
+  {
+    "city": "Sayreton",
+    "state": "AL",
+    "lat": 33.5617716,
+    "lng": -86.8297135
+  },
+  {
+    "city": "St. Clairsville",
+    "state": "OH",
+    "lat": 40.0806266,
+    "lng": -80.9000916
+  },
+  {
+    "city": "San Toy",
+    "state": "OH",
+    "lat": 39.6561803,
+    "lng": -82.0356972
+  },
+  {
+    "city": "Clinton Co.",
+    "state": "PA",
+    "lat": 41.2711458,
+    "lng": -77.6984481
+  },
+  {
+    "city": "Acton",
+    "state": "AL",
+    "lat": 33.3561643,
+    "lng": -86.8070412
+  },
+  {
+    "city": "Herron",
+    "state": "MI",
+    "lat": 45.0230666,
+    "lng": -83.6469279
+  },
+  {
+    "city": "West Leisenring",
+    "state": "PA",
+    "lat": 39.9592424,
+    "lng": -79.6986522
+  },
+  {
+    "city": "Crystal Falls",
+    "state": "MI",
+    "lat": 46.098007,
+    "lng": -88.334024
+  },
+  {
+    "city": "Mt. Hope",
+    "state": "WV",
+    "lat": 37.8953906,
+    "lng": -81.1642682
+  },
+  {
+    "city": "Lake Whatcom",
+    "state": "WA",
+    "lat": 48.7194018,
+    "lng": -122.3082852
+  },
+  {
+    "city": "Mallory",
+    "state": "WV",
+    "lat": 37.7305445,
+    "lng": -81.8233407
+  },
+  {
+    "city": "Coulterville",
+    "state": "IL",
+    "lat": 38.1864389,
+    "lng": -89.6056504
+  },
+  {
+    "city": "Moweaqua",
+    "state": "IL",
+    "lat": 39.6247614,
+    "lng": -89.0189684
+  },
+  {
+    "city": "Rockwood",
+    "state": "TN",
+    "lat": 35.8656284,
+    "lng": -84.68494
+  },
+  {
+    "city": "LaFollette",
+    "state": "TN",
+    "lat": 36.3828571,
+    "lng": -84.1199251
+  },
+  {
+    "city": "Crosby",
+    "state": "MN",
+    "lat": 46.4821848,
+    "lng": -93.9577612
+  },
+  {
+    "city": "Sturgis",
+    "state": "KY",
+    "lat": 37.5467136,
+    "lng": -87.983914
+  },
+  {
+    "city": "Herrin",
+    "state": "IL",
+    "lat": 37.8031056,
+    "lng": -89.0275744
+  },
+  {
+    "city": "Stuart",
+    "state": "WV",
+    "lat": 38.9373302,
+    "lng": -79.7106175
+  },
+  {
+    "city": "Itmann",
+    "state": "WV",
+    "lat": 37.5711385,
+    "lng": -81.4115273
+  },
+  {
+    "city": "Gilberton",
+    "state": "PA",
+    "lat": 40.7995327,
+    "lng": -76.2124415
+  },
+  {
+    "city": "Mulga",
+    "state": "AL",
+    "lat": 33.5517717,
+    "lng": -86.9744879
+  },
+  {
+    "city": "Boomer",
+    "state": "WV",
+    "lat": 38.149237,
+    "lng": -81.2774181
+  },
+  {
+    "city": "Boissevain",
+    "state": "VA",
+    "lat": 37.2820245,
+    "lng": -81.3787038
+  },
+  {
+    "city": "Tiger",
+    "state": "AZ",
+    "lat": 32.7078463,
+    "lng": -110.6823227
+  },
+  {
+    "city": "Havaco",
+    "state": "WV",
+    "lat": 37.4102695,
+    "lng": -81.5778662
+  },
+  {
+    "city": "Ormrod",
+    "state": "PA",
+    "lat": 40.6712072,
+    "lng": -75.5549074
+  },
+  {
+    "city": "Parsons",
+    "state": "PA",
+    "lat": 41.2600813,
+    "lng": -75.8418618
+  },
+  {
+    "city": "Mount Pleasant",
+    "state": "PA",
+    "lat": 40.1487475,
+    "lng": -79.5421368
+  },
+  {
+    "city": "Orangeville",
+    "state": "UT",
+    "lat": 39.227191,
+    "lng": -111.053502
+  },
+  {
+    "city": "Parnassus",
+    "state": "PA",
+    "lat": 40.5570116,
+    "lng": -79.7619924
+  },
+  {
+    "city": "Centralia",
+    "state": "IL",
+    "lat": 38.5250491,
+    "lng": -89.1334037
+  },
+  {
+    "city": "Engleville",
+    "state": "CO",
+    "lat": 37.1494637,
+    "lng": -104.4752626
+  },
+  {
+    "city": "McClure",
+    "state": "VA",
+    "lat": 37.1026065,
+    "lng": -82.3762582
+  },
+  {
+    "city": "Gates",
+    "state": "PA",
+    "lat": 39.8897982,
+    "lng": -79.9111633
+  },
+  {
+    "city": "Wyoming",
+    "state": "PA",
+    "lat": 41.5179097,
+    "lng": -76.019111
+  },
+  {
+    "city": "Leyden",
+    "state": "CO",
+    "lat": 39.8447088,
+    "lng": -105.1841539
+  },
+  {
+    "city": "Larksville",
+    "state": "PA",
+    "lat": 41.2450817,
+    "lng": -75.9307534
+  },
+  {
+    "city": "Walsenburg",
+    "state": "CO",
+    "lat": 37.6235234,
+    "lng": -104.780995
+  },
+  {
+    "city": "Johnston City",
+    "state": "IL",
+    "lat": 37.8206053,
+    "lng": -88.9275695
+  },
+  {
+    "city": "Vivian",
+    "state": "WV",
+    "lat": 37.4178645,
+    "lng": -81.4886142
+  },
+  {
+    "city": "Decature",
+    "state": "GA",
+    "lat": 32.8250654,
+    "lng": -83.5559659
+  },
+  {
+    "city": "Sullivan",
+    "state": "KY",
+    "lat": 37.4975469,
+    "lng": -87.9453
+  },
+  {
+    "city": "Middleport",
+    "state": "PA",
+    "lat": 40.7295342,
+    "lng": -76.0854908
+  },
+  {
+    "city": "Wehrum",
+    "state": "PA",
+    "lat": 40.4709038,
+    "lng": -78.9497497
+  },
+  {
+    "city": "Cadiz",
+    "state": "OH",
+    "lat": 40.2728452,
+    "lng": -80.9967628
+  },
+  {
+    "city": "Virginia City",
+    "state": "NV",
+    "lat": 39.3108133,
+    "lng": -119.649517
+  },
+  {
+    "city": "Keystone",
+    "state": "OH",
+    "lat": 39.0100748,
+    "lng": -82.4484907
+  },
+  {
+    "city": "Duty",
+    "state": "VA",
+    "lat": 37.0814975,
+    "lng": -82.1518019
+  },
+  {
+    "city": "Palos",
+    "state": "AL",
+    "lat": 33.6456617,
+    "lng": -87.0449974
+  },
+  {
+    "city": "Millgrove",
+    "state": "PA",
+    "lat": 41.8351828,
+    "lng": -80.3654923
+  },
+  {
+    "city": "New Castle",
+    "state": "CO",
+    "lat": 39.5714753,
+    "lng": -107.534965
+  },
+  {
+    "city": "Adamsville",
+    "state": "AL",
+    "lat": 33.6009389,
+    "lng": -86.9561059
+  },
+  {
+    "city": "Rosiclare",
+    "state": "IL",
+    "lat": 37.4236626,
+    "lng": -88.3461483
+  },
+  {
+    "city": "Wilcoe",
+    "state": "WV",
+    "lat": 37.3812251,
+    "lng": -81.5639955
+  },
+  {
+    "city": "Switchback",
+    "state": "WV",
+    "lat": 37.3712266,
+    "lng": -81.385658
+  },
+  {
+    "city": "Big Stone Gap",
+    "state": "VA",
+    "lat": 36.8677938,
+    "lng": -82.7742267
+  },
+  {
+    "city": "Cumnock",
+    "state": "NC",
+    "lat": 35.5548727,
+    "lng": -79.2377981
+  },
+  {
+    "city": "Searight",
+    "state": "PA",
+    "lat": 31.470998,
+    "lng": -86.3932922
+  },
+  {
+    "city": "Clifton",
+    "state": "AZ",
+    "lat": 33.0508966,
+    "lng": -109.296182
+  },
+  {
+    "city": "Connellsville",
+    "state": "PA",
+    "lat": 40.0178522,
+    "lng": -79.5894828
+  },
+  {
+    "city": "Taylor",
+    "state": "PA",
+    "lat": 41.3840712,
+    "lng": -75.709405
+  },
+  {
+    "city": "Yolande",
+    "state": "AL",
+    "lat": 33.3067811,
+    "lng": -87.1913862
+  },
+  {
+    "city": "Central City",
+    "state": "KY",
+    "lat": 37.2939322,
+    "lng": -87.1233292
+  },
+  {
+    "city": "Burke",
+    "state": "ID",
+    "lat": 47.5211861,
+    "lng": -115.8163785
+  },
+  {
+    "city": "Marvel",
+    "state": "AL",
+    "lat": 33.1467847,
+    "lng": -87.0030481
+  },
+  {
+    "city": "King",
+    "state": "CO",
+    "lat": 36.280694,
+    "lng": -80.3592197
+  },
+  {
+    "city": "Negaunee",
+    "state": "MI",
+    "lat": 46.499102,
+    "lng": -87.611803
+  },
+  {
+    "city": "Miami",
+    "state": "AZ",
+    "lat": 33.3994784,
+    "lng": -110.8707655
+  },
+  {
+    "city": "Fourmile",
+    "state": "KY",
+    "lat": 36.7934194,
+    "lng": -83.741863
+  },
+  {
+    "city": "Majestic",
+    "state": "AL",
+    "lat": 33.7495458,
+    "lng": -86.7605482
+  },
+  {
+    "city": "Wise",
+    "state": "VA",
+    "lat": 37.0170633,
+    "lng": -82.6103804
+  },
+  {
+    "city": "Coaldale",
+    "state": "WV",
+    "lat": 37.3631715,
+    "lng": -81.334268
+  },
+  {
+    "city": "Edwardsville",
+    "state": "PA",
+    "lat": 41.2678095,
+    "lng": -75.9084885
+  },
+  {
+    "city": "Coalport",
+    "state": "PA",
+    "lat": 40.7478401,
+    "lng": -78.5344673
+  },
+  {
+    "city": "Norton",
+    "state": "VA",
+    "lat": 36.9336934,
+    "lng": -82.6298965
+  },
+  {
+    "city": "Canonsburg",
+    "state": "PA",
+    "lat": 40.2588173,
+    "lng": -80.1867206
+  },
+  {
+    "city": "West Coplay",
+    "state": "PA",
+    "lat": 40.6748956,
+    "lng": -75.5049067
+  },
+  {
+    "city": "Silver Cliff",
+    "state": "CO",
+    "lat": 38.1352969,
+    "lng": -105.4464545
+  },
+  {
+    "city": "Pratt City",
+    "state": "AL",
+    "lat": 33.5401055,
+    "lng": -86.8688808
+  },
+  {
+    "city": "Fairview",
+    "state": "WV",
+    "lat": 39.5926491,
+    "lng": -80.2474794
+  },
+  {
+    "city": "Eldorado",
+    "state": "IL",
+    "lat": 37.8136583,
+    "lng": -88.4381029
+  },
+  {
+    "city": "Littleton",
+    "state": "AL",
+    "lat": 34.0670409,
+    "lng": -86.133031
+  },
+  {
+    "city": "Minersville",
+    "state": "PA",
+    "lat": 40.6906451,
+    "lng": -76.2621697
+  },
+  {
+    "city": "Amsterdam",
+    "state": "OH",
+    "lat": 40.4736758,
+    "lng": -80.9228671
+  },
+  {
+    "city": "Mill Creek",
+    "state": "PA",
+    "lat": 40.436807,
+    "lng": -77.9311766
+  },
+  {
+    "city": "El Paso County",
+    "state": "CO",
+    "lat": 38.8287435,
+    "lng": -104.5253456
+  },
+  {
+    "city": "Horton",
+    "state": "WV",
+    "lat": 38.8073338,
+    "lng": -79.5425526
+  },
+  {
+    "city": "Craigsville",
+    "state": "WV",
+    "lat": 38.323607,
+    "lng": -80.6499081
+  },
+  {
+    "city": "Pittston",
+    "state": "PA",
+    "lat": 41.3259134,
+    "lng": -75.7893604
+  },
+  {
+    "city": "Abernant",
+    "state": "AL",
+    "lat": 33.2903926,
+    "lng": -87.198053
+  },
+  {
+    "city": "Ely",
+    "state": "MN",
+    "lat": 47.901571,
+    "lng": -91.8572479
+  },
+  {
+    "city": "Clarksville",
+    "state": "PA",
+    "lat": 39.9740687,
+    "lng": -80.0439332
+  },
+  {
+    "city": "Praco",
+    "state": "AL",
+    "lat": 33.6137184,
+    "lng": -87.1124981
+  },
+  {
+    "city": "Whitewell",
+    "state": "TN",
+    "lat": 35.3509444,
+    "lng": -85.4069676
+  },
+  {
+    "city": "Buckhannon",
+    "state": "WV",
+    "lat": 38.9939426,
+    "lng": -80.2322698
+  },
+  {
+    "city": "Drakesboro",
+    "state": "KY",
+    "lat": 37.2175425,
+    "lng": -87.0488847
+  },
+  {
+    "city": "New Richmond",
+    "state": "VA",
+    "lat": 37.572606,
+    "lng": -81.4853798
+  },
+  {
+    "city": "Elizabeth",
+    "state": "PA",
+    "lat": 40.2692367,
+    "lng": -79.8897706
+  },
+  {
+    "city": "Algoma",
+    "state": "WV",
+    "lat": 37.4190038,
+    "lng": -81.4259365
+  },
+  {
+    "city": "Haileyville",
+    "state": "OK",
+    "lat": 34.8549722,
+    "lng": -95.5818166
+  },
+  {
+    "city": "Briceville",
+    "state": "TN",
+    "lat": 36.1784122,
+    "lng": -84.1852012
+  },
+  {
+    "city": "Wheatcroft",
+    "state": "KY",
+    "lat": 37.4900457,
+    "lng": -87.862796
+  },
+  {
+    "city": "Oak Hill",
+    "state": "CO",
+    "lat": 38.4044321,
+    "lng": -108.1775753
+  },
+  {
+    "city": "Franklin",
+    "state": "LA",
+    "lat": 32.1254252,
+    "lng": -91.6778053
+  },
+  {
+    "city": "Sopris",
+    "state": "CO",
+    "lat": 39.2612136,
+    "lng": -107.1647648
+  },
+  {
+    "city": "Golden",
+    "state": "CO",
+    "lat": 39.7546349,
+    "lng": -105.22058
+  },
+  {
+    "city": "Dora",
+    "state": "PA",
+    "lat": 40.966732,
+    "lng": -79.1603149
+  },
+  {
+    "city": "Madisonville",
+    "state": "KY",
+    "lat": 37.3280037,
+    "lng": -87.4986989
+  },
+  {
+    "city": "Iron Mtn.",
+    "state": "MI",
+    "lat": 45.820233,
+    "lng": -88.06596
+  },
+  {
+    "city": "Hanna",
+    "state": "WY",
+    "lat": 41.8699858,
+    "lng": -106.5620727
+  },
+  {
+    "city": "Arnettsville",
+    "state": "WV",
+    "lat": 39.585638,
+    "lng": -80.0922938
+  },
+  {
+    "city": "Redstone",
+    "state": "CO",
+    "lat": 39.1808189,
+    "lng": -107.2397727
+  },
+  {
+    "city": "Dolomite",
+    "state": "AL",
+    "lat": 33.4628858,
+    "lng": -86.961382
+  },
+  {
+    "city": "Bluefield",
+    "state": "WV",
+    "lat": 37.2698395,
+    "lng": -81.2223195
+  },
+  {
+    "city": "Hartshorne",
+    "state": "OK",
+    "lat": 34.8450984,
+    "lng": -95.5574811
+  },
+  {
+    "city": "White Oaks",
+    "state": "NM",
+    "lat": 33.7475738,
+    "lng": -105.7363739
+  },
+  {
+    "city": "Catoosa",
+    "state": "TN",
+    "lat": 36.0542407,
+    "lng": -84.6724416
+  },
+  {
+    "city": "Lehigh",
+    "state": "OK",
+    "lat": 34.4692588,
+    "lng": -96.2163853
+  },
+  {
+    "city": "West Pittston",
+    "state": "PA",
+    "lat": 41.3279106,
+    "lng": -75.8007112
+  },
+  {
+    "city": "Pinson Fork",
+    "state": "KY",
+    "lat": 37.6041091,
+    "lng": -82.3805873
+  },
+  {
+    "city": "Carbondale",
+    "state": "PA",
+    "lat": 41.5723511,
+    "lng": -75.5027574
+  },
+  {
+    "city": "LaVeta",
+    "state": "CO",
+    "lat": 39.0507391,
+    "lng": -108.5636304
+  },
+  {
+    "city": "Rendham",
+    "state": "PA",
+    "lat": 41.4852444,
+    "lng": -75.585392
+  },
+  {
+    "city": "Barrackville",
+    "state": "WV",
+    "lat": 39.5037486,
+    "lng": -80.166815
+  },
+  {
+    "city": "Roderfield",
+    "state": "WV",
+    "lat": 37.4502385,
+    "lng": -81.7023749
+  },
+  {
+    "city": "Exeter",
+    "state": "PA",
+    "lat": 41.3206358,
+    "lng": -75.8190835
+  },
+  {
+    "city": "Kingston",
+    "state": "PA",
+    "lat": 41.2620137,
+    "lng": -75.897197
+  },
+  {
+    "city": "Uniontown",
+    "state": "PA",
+    "lat": 39.900937,
+    "lng": -79.725931
+  },
+  {
+    "city": "McAlpin",
+    "state": "WV",
+    "lat": 37.6917811,
+    "lng": -81.2778796
+  },
+  {
+    "city": "Lovilia",
+    "state": "IA",
+    "lat": 41.1343863,
+    "lng": -92.9076404
+  },
+  {
+    "city": "Sublet",
+    "state": "WY",
+    "lat": 41.7987814,
+    "lng": -110.5662801
+  },
+  {
+    "city": "Ashland",
+    "state": "PA",
+    "lat": 40.7817542,
+    "lng": -76.3457825
+  },
+  {
+    "city": "Bowen",
+    "state": "CO",
+    "lat": 40.2333789,
+    "lng": -91.0626375
+  },
+  {
+    "city": "Thomas",
+    "state": "WV",
+    "lat": 39.1491974,
+    "lng": -79.4979721
+  },
+  {
+    "city": "Tower City",
+    "state": "PA",
+    "lat": 40.5892808,
+    "lng": -76.552385
+  },
+  {
+    "city": "Monongah",
+    "state": "WV",
+    "lat": 39.4627794,
+    "lng": -80.2181773
+  },
+  {
+    "city": "Buery",
+    "state": "WV",
+    "lat": 37.9473018,
+    "lng": -80.9918001
+  },
+  {
+    "city": "Troop",
+    "state": "PA",
+    "lat": 39.9163635,
+    "lng": -75.1823316
+  },
+  {
+    "city": "Pandora",
+    "state": "CO",
+    "lat": 37.9333274,
+    "lng": -107.7856178
+  },
+  {
+    "city": "Dubois",
+    "state": "PA",
+    "lat": 41.118651,
+    "lng": -78.7622342
+  },
+  {
+    "city": "Acmar",
+    "state": "AL",
+    "lat": 33.6214915,
+    "lng": -86.496095
+  },
+  {
+    "city": "Crested Butte",
+    "state": "CO",
+    "lat": 38.8698201,
+    "lng": -106.984043
+  },
+  {
+    "city": "Dayton",
+    "state": "TN",
+    "lat": 35.4939587,
+    "lng": -85.0124535
+  },
+  {
+    "city": "Primero",
+    "state": "CO",
+    "lat": 37.138216,
+    "lng": -104.7427342
+  },
+  {
+    "city": "Tercio",
+    "state": "CO",
+    "lat": 37.0519671,
+    "lng": -104.9966662
+  },
+  {
+    "city": "Kemmerer",
+    "state": "WY",
+    "lat": 41.7924606,
+    "lng": -110.537711
+  },
+  {
+    "city": "Cardiff",
+    "state": "IL",
+    "lat": 41.051699,
+    "lng": -88.287277
+  },
+  {
+    "city": "Locust Dale",
+    "state": "PA",
+    "lat": 40.7769396,
+    "lng": -76.3820969
+  },
+  {
+    "city": "Shamokin",
+    "state": "PA",
+    "lat": 40.7887609,
+    "lng": -76.5585175
+  },
+  {
+    "city": "Degnan",
+    "state": "OK",
+    "lat": 34.9473206,
+    "lng": -95.3533071
+  },
+  {
+    "city": "Lake County",
+    "state": "CO",
+    "lat": 39.2056525,
+    "lng": -106.342801
+  },
+  {
+    "city": "Kayford",
+    "state": "WV",
+    "lat": 38.015663,
+    "lng": -81.4520553
+  },
+  {
+    "city": "Joplin",
+    "state": "MO",
+    "lat": 37.0841838,
+    "lng": -94.5133385
+  },
+  {
+    "city": "Kaska",
+    "state": "PA",
+    "lat": 40.7400896,
+    "lng": -76.1071587
+  },
+  {
+    "city": "Parrott",
+    "state": "VA",
+    "lat": 37.2205758,
+    "lng": -80.6200062
+  },
+  {
+    "city": "Powhatan Point",
+    "state": "OH",
+    "lat": 39.860075,
+    "lng": -80.815368
+  },
+  {
+    "city": "Layland",
+    "state": "WV",
+    "lat": 37.8892821,
+    "lng": -80.9712058
+  },
+  {
+    "city": "McAlester",
+    "state": "OK",
+    "lat": 34.9334981,
+    "lng": -95.7697934
+  },
+  {
+    "city": "Alderson",
+    "state": "OK",
+    "lat": 34.9006339,
+    "lng": -95.6917433
+  },
+  {
+    "city": "Hendersonville",
+    "state": "PA",
+    "lat": 40.2992366,
+    "lng": -80.1522788
+  },
+  {
+    "city": "Plymouth",
+    "state": "PA",
+    "lat": 41.2403596,
+    "lng": -75.9446428
+  },
+  {
+    "city": "Sunnyside",
+    "state": "UT",
+    "lat": 39.5513553,
+    "lng": -110.387932
+  },
+  {
+    "city": "Bingham",
+    "state": "UT",
+    "lat": 40.5311559,
+    "lng": -112.1297499
+  },
+  {
+    "city": "Francisco",
+    "state": "IN",
+    "lat": 38.3322686,
+    "lng": -87.4452954
+  },
+  {
+    "city": "Union",
+    "state": "WV",
+    "lat": 37.5914333,
+    "lng": -80.5436554
+  },
+  {
+    "city": "McDowell Co.",
+    "state": "WV",
+    "lat": 37.3660757,
+    "lng": -81.6478197
+  },
+  {
+    "city": "Sumner",
+    "state": "PA",
+    "lat": 40.420467,
+    "lng": -79.9685685
+  },
+  {
+    "city": "Carbon Hill",
+    "state": "VA",
+    "lat": 37.521244,
+    "lng": -77.628342
+  },
+  {
+    "city": "Girardville",
+    "state": "PA",
+    "lat": 40.7914769,
+    "lng": -76.2835569
+  },
+  {
+    "city": "Ledford",
+    "state": "IL",
+    "lat": 37.7000485,
+    "lng": -88.590053
+  },
+  {
+    "city": "Mountain City, Elko County",
+    "state": "NV",
+    "lat": 41.8385141,
+    "lng": -115.965369
+  },
+  {
+    "city": "Mount Carmel",
+    "state": "PA",
+    "lat": 40.7968393,
+    "lng": -76.4131097
+  },
+  {
+    "city": "McIntyre",
+    "state": "PA",
+    "lat": 40.5697885,
+    "lng": -79.2955936
+  },
+  {
+    "city": "Drytown",
+    "state": "CA",
+    "lat": 38.4401695,
+    "lng": -120.8533823
+  },
+  {
+    "city": "Excursion Inlet",
+    "state": "AK",
+    "lat": 58.4188889,
+    "lng": -135.4266667
+  },
+  {
+    "city": "Harrisburg",
+    "state": "IL",
+    "lat": 37.7385,
+    "lng": -88.5405213
+  },
+  {
+    "city": "Greenville",
+    "state": "KY",
+    "lat": 37.2011539,
+    "lng": -87.1788854
+  },
+  {
+    "city": "Decatur",
+    "state": "IL",
+    "lat": 39.8454163,
+    "lng": -88.9524151
+  },
+  {
+    "city": "Hancock",
+    "state": "MI",
+    "lat": 47.126871,
+    "lng": -88.580956
+  },
+  {
+    "city": "Broomfield",
+    "state": "CO",
+    "lat": 39.9403995,
+    "lng": -105.05208
+  },
+  {
+    "city": "Johnstown",
+    "state": "PA",
+    "lat": 40.3267407,
+    "lng": -78.9219698
+  },
+  {
+    "city": "Bonanza",
+    "state": "AR",
+    "lat": 35.2392614,
+    "lng": -94.4260494
+  },
+  {
+    "city": "Stearns",
+    "state": "KY",
+    "lat": 36.695077,
+    "lng": -84.4735769
+  },
+  {
+    "city": "Virginia",
+    "state": "MN",
+    "lat": 47.52326,
+    "lng": -92.536571
+  },
+  {
+    "city": "Bicknell",
+    "state": "IN",
+    "lat": 38.7742136,
+    "lng": -87.3077936
+  },
+  {
+    "city": "Hawks Nest",
+    "state": "WV",
+    "lat": 38.1159425,
+    "lng": -81.1170482
+  },
+  {
+    "city": "Clay",
+    "state": "KY",
+    "lat": 37.1540436,
+    "lng": -83.723144
+  },
+  {
+    "city": "Harco",
+    "state": "IL",
+    "lat": 37.7958818,
+    "lng": -88.6500566
+  },
+  {
+    "city": "Leadville",
+    "state": "CO",
+    "lat": 39.2508229,
+    "lng": -106.2925238
+  },
+  {
+    "city": "Burnett",
+    "state": "WA",
+    "lat": 47.1292687,
+    "lng": -122.0490011
+  },
+  {
+    "city": "Mullan",
+    "state": "ID",
+    "lat": 47.4702078,
+    "lng": -115.8018253
+  },
+  {
+    "city": "Nortonville",
+    "state": "CA",
+    "lat": 37.9562539,
+    "lng": -121.8744411
+  },
+  {
+    "city": "Keystone",
+    "state": "WV",
+    "lat": 37.4148944,
+    "lng": -81.450705
+  },
+  {
+    "city": "Lillybrook",
+    "state": "WV",
+    "lat": 37.6448375,
+    "lng": -81.2203778
+  },
+  {
+    "city": "Amador",
+    "state": "CA",
+    "lat": 38.449089,
+    "lng": -120.5911018
+  },
+  {
+    "city": "Zeigler",
+    "state": "IL",
+    "lat": 37.8994945,
+    "lng": -89.0520194
+  },
+  {
+    "city": "Kite",
+    "state": "KY",
+    "lat": 37.3212123,
+    "lng": -82.8029367
+  },
+  {
+    "city": "Radersburg",
+    "state": "MT",
+    "lat": 46.195756,
+    "lng": -111.630974
+  },
+  {
+    "city": "Tonopah",
+    "state": "NV",
+    "lat": 38.100063,
+    "lng": -117.2250609
+  },
+  {
+    "city": "Cerillos",
+    "state": "NM",
+    "lat": 35.4546127,
+    "lng": -106.1312835
+  },
+  {
+    "city": "Palisades",
+    "state": "CO",
+    "lat": 41.0182822,
+    "lng": -73.9163697
+  },
+  {
+    "city": "Carthage",
+    "state": "NM",
+    "lat": 33.8834005,
+    "lng": -106.65946
+  },
+  {
+    "city": "Gold Hill",
+    "state": "NV",
+    "lat": 38.0633364,
+    "lng": -117.2260975
+  },
+  {
+    "city": "Almy",
+    "state": "WY",
+    "lat": 41.3316124,
+    "lng": -111.0046287
+  },
+  {
+    "city": "Parrish",
+    "state": "AL",
+    "lat": 33.7334096,
+    "lng": -87.281325
+  },
+  {
+    "city": "Afton",
+    "state": "WY",
+    "lat": 42.7252774,
+    "lng": -110.933402
+  },
+  {
+    "city": "Saunders",
+    "state": "WV",
+    "lat": 37.7998308,
+    "lng": -81.672335
+  },
+  {
+    "city": "DuQuoin",
+    "state": "IL",
+    "lat": 37.9830785,
+    "lng": -89.2229006
+  },
+  {
+    "city": "Monongahela",
+    "state": "PA",
+    "lat": 39.952475,
+    "lng": -79.9556098
+  },
+  {
+    "city": "Frontenac",
+    "state": "KS",
+    "lat": 37.4556049,
+    "lng": -94.689127
+  },
+  {
+    "city": "Welch",
+    "state": "WV",
+    "lat": 37.4328886,
+    "lng": -81.5844357
+  },
+  {
+    "city": "Hailey",
+    "state": "ID",
+    "lat": 43.519629,
+    "lng": -114.315325
+  },
+  {
+    "city": "Virginia City",
+    "state": "MT",
+    "lat": 45.2935505,
+    "lng": -111.9442329
+  },
+  {
+    "city": "Jed",
+    "state": "WV",
+    "lat": 37.4042805,
+    "lng": -81.5745511
+  },
+  {
+    "city": "Excelsior",
+    "state": "AR",
+    "lat": 35.2000942,
+    "lng": -94.3143794
+  },
+  {
+    "city": "Blocton",
+    "state": "AL",
+    "lat": 33.1181748,
+    "lng": -87.1249954
+  },
+  {
+    "city": "Sewickley",
+    "state": "PA",
+    "lat": 40.5403417,
+    "lng": -80.1805269
+  },
+  {
+    "city": "Diamondville",
+    "state": "WY",
+    "lat": 41.7793918,
+    "lng": -110.538502
+  },
+  {
+    "city": "National",
+    "state": "WV",
+    "lat": 39.5863598,
+    "lng": -80.0383863
+  },
+  {
+    "city": "Lansford",
+    "state": "PA",
+    "lat": 40.8319017,
+    "lng": -75.8823758
+  },
+  {
+    "city": "Coalfield",
+    "state": "VA",
+    "lat": 38.0045531,
+    "lng": -81.3503865
+  },
+  {
+    "city": "Midvale",
+    "state": "OH",
+    "lat": 40.4378434,
+    "lng": -81.3731675
+  },
+  {
+    "city": "Wilburton",
+    "state": "OK",
+    "lat": 34.9187023,
+    "lng": -95.3097807
+  },
+  {
+    "city": "Moundsville",
+    "state": "WV",
+    "lat": 39.920425,
+    "lng": -80.7432124
+  },
+  {
+    "city": "Iron River",
+    "state": "MI",
+    "lat": 46.0924697,
+    "lng": -88.6426179
+  },
+  {
+    "city": "Witteville",
+    "state": "OK",
+    "lat": 35.0829648,
+    "lng": -94.6498791
+  },
+  {
+    "city": "Blacksville",
+    "state": "WV",
+    "lat": 39.7200788,
+    "lng": -80.2120156
+  },
+  {
+    "city": "Port Carbon",
+    "state": "PA",
+    "lat": 40.6954701,
+    "lng": -76.1656991
+  },
+  {
+    "city": "Bartley",
+    "state": "WV",
+    "lat": 37.3373515,
+    "lng": -81.7330672
+  },
+  {
+    "city": "Van Meter",
+    "state": "PA",
+    "lat": 40.1389616,
+    "lng": -79.7455978
+  },
+  {
+    "city": "Athens",
+    "state": "IL",
+    "lat": 39.9608826,
+    "lng": -89.7239944
+  },
+  {
+    "city": "Eureka",
+    "state": "UT",
+    "lat": 39.9540899,
+    "lng": -112.1201881
+  },
+  {
+    "city": "Allentown",
+    "state": "PA",
+    "lat": 40.6022552,
+    "lng": -75.4716115
+  },
+  {
+    "city": "Harwick",
+    "state": "PA",
+    "lat": 40.5540758,
+    "lng": -79.806382
+  },
+  {
+    "city": "Santa Rita",
+    "state": "NM",
+    "lat": 34.3303415,
+    "lng": -107.1050344
+  },
+  {
+    "city": "Mahanoy City",
+    "state": "PA",
+    "lat": 40.8125881,
+    "lng": -76.1416034
+  },
+  {
+    "city": "Grindstone",
+    "state": "PA",
+    "lat": 40.0180901,
+    "lng": -79.8293175
+  },
+  {
+    "city": "Phoenix",
+    "state": "MI",
+    "lat": 47.3888724,
+    "lng": -88.2778046
+  },
+  {
+    "city": "Dugger",
+    "state": "IN",
+    "lat": 39.0700433,
+    "lng": -87.261404
+  },
+  {
+    "city": "Cordova",
+    "state": "AK",
+    "lat": 60.5443385,
+    "lng": -145.7595063
+  },
+  {
+    "city": "Portage",
+    "state": "PA",
+    "lat": 40.3886847,
+    "lng": -78.6722411
+  },
+  {
+    "city": "McDowell County",
+    "state": "WV",
+    "lat": 37.3660757,
+    "lng": -81.6478197
+  },
+  {
+    "city": "Raleigh",
+    "state": "WV",
+    "lat": 37.7493481,
+    "lng": -81.2250929
+  },
+  {
+    "city": "Basin",
+    "state": "MT",
+    "lat": 46.2710113,
+    "lng": -112.263513
+  },
+  {
+    "city": "Cinderella",
+    "state": "WV",
+    "lat": 37.6842686,
+    "lng": -82.2365275
+  },
+  {
+    "city": "Clinton",
+    "state": "IN",
+    "lat": 40.2992769,
+    "lng": -86.4692735
+  },
+  {
+    "city": "Beaver Dam",
+    "state": "KY",
+    "lat": 37.4029224,
+    "lng": -86.8759367
+  },
+  {
+    "city": "Park City",
+    "state": "UT",
+    "lat": 40.6460921,
+    "lng": -111.4979963
+  },
+  {
+    "city": "Cumberland",
+    "state": "WY",
+    "lat": 43.0905774,
+    "lng": -109.7477552
+  },
+  {
+    "city": "Starkville",
+    "state": "CO",
+    "lat": 37.115298,
+    "lng": -104.524153
+  },
+  {
+    "city": "Jessup",
+    "state": "PA",
+    "lat": 41.4686924,
+    "lng": -75.5621309
+  },
+  {
+    "city": "Mineral",
+    "state": "KS",
+    "lat": 37.0722475,
+    "lng": -94.6271013
+  },
+  {
+    "city": "Tacoma",
+    "state": "VA",
+    "lat": 36.9356295,
+    "lng": -82.5329874
+  },
+  {
+    "city": "Scranton",
+    "state": "PA",
+    "lat": 41.4086874,
+    "lng": -75.6621294
+  },
+  {
+    "city": "Harmarville",
+    "state": "PA",
+    "lat": 40.5378411,
+    "lng": -79.8395416
+  },
+  {
+    "city": "Brookwood",
+    "state": "AL",
+    "lat": 33.2556719,
+    "lng": -87.3208336
+  },
+  {
+    "city": "Red Lodge",
+    "state": "MT",
+    "lat": 45.1859038,
+    "lng": -109.2470622
+  },
+  {
+    "city": "Lark",
+    "state": "UT",
+    "lat": 41.1963377,
+    "lng": -111.9438423
+  },
+  {
+    "city": "Crucible",
+    "state": "PA",
+    "lat": 39.9484083,
+    "lng": -79.9647746
+  },
+  {
+    "city": "Caples",
+    "state": "WV",
+    "lat": 37.4538239,
+    "lng": -81.5998394
+  },
+  {
+    "city": "Breese",
+    "state": "IL",
+    "lat": 38.6106338,
+    "lng": -89.5259341
+  },
+  {
+    "city": "Washoe",
+    "state": "MT",
+    "lat": 45.1638342,
+    "lng": -109.2132082
+  },
+  {
+    "city": "Ely",
+    "state": "NV",
+    "lat": 39.2480588,
+    "lng": -114.891718
+  },
+  {
+    "city": "Sunshine",
+    "state": "CO",
+    "lat": 40.0658191,
+    "lng": -105.3666599
+  },
+  {
+    "city": "Kenvir",
+    "state": "KY",
+    "lat": 36.8537007,
+    "lng": -83.157117
+  },
+  {
+    "city": "Kingston",
+    "state": "WV",
+    "lat": 37.9737209,
+    "lng": -81.3045516
+  },
+  {
+    "city": "Gouverneur",
+    "state": "NY",
+    "lat": 44.3366669,
+    "lng": -75.46309
+  },
+  {
+    "city": "Carbonado",
+    "state": "WA",
+    "lat": 47.0797219,
+    "lng": -122.0514335
+  },
+  {
+    "city": "Wilkeson",
+    "state": "WA",
+    "lat": 47.1053802,
+    "lng": -122.045667
+  },
+  {
+    "city": "Standardville",
+    "state": "UT",
+    "lat": 39.6999633,
+    "lng": -110.9334966
+  },
+  {
+    "city": "Savanna",
+    "state": "OK",
+    "lat": 34.8289851,
+    "lng": -95.8438807
+  },
+  {
+    "city": "Hulen",
+    "state": "KY",
+    "lat": 36.8829009,
+    "lng": -83.2900712
+  },
+  {
+    "city": "Piper",
+    "state": "AL",
+    "lat": 33.0895822,
+    "lng": -87.0418115
+  },
+  {
+    "city": "Moab",
+    "state": "UT",
+    "lat": 38.5738096,
+    "lng": -109.546214
+  },
+  {
+    "city": "Wilkes-Barre",
+    "state": "PA",
+    "lat": 41.2464824,
+    "lng": -75.8817316
+  },
+  {
+    "city": "Pursglove",
+    "state": "WV",
+    "lat": 39.6675807,
+    "lng": -80.0261765
+  },
+  {
+    "city": "Rich Hill",
+    "state": "MO",
+    "lat": 38.0964191,
+    "lng": -94.3610616
+  },
+  {
+    "city": "Clymer",
+    "state": "PA",
+    "lat": 40.6682605,
+    "lng": -79.011747
+  },
+  {
+    "city": "Dante",
+    "state": "VA",
+    "lat": 36.981225,
+    "lng": -82.2990223
+  },
+  {
+    "city": "Finleyville",
+    "state": "PA",
+    "lat": 40.2522922,
+    "lng": -80.0028294
+  },
+  {
+    "city": "Craynor",
+    "state": "KY",
+    "lat": 37.4370454,
+    "lng": -82.6687673
+  },
+  {
+    "city": "Weirwood",
+    "state": "WV",
+    "lat": 37.8948338,
+    "lng": -81.2703828
+  },
+  {
+    "city": "Banner",
+    "state": "AL",
+    "lat": 31.3132356,
+    "lng": -85.450802
+  },
+  {
+    "city": "Avalon",
+    "state": "CA",
+    "lat": 33.34221,
+    "lng": -118.3272612
+  },
+  {
+    "city": "Macbeth",
+    "state": "WV",
+    "lat": 39.2104294,
+    "lng": -77.8377737
+  },
+  {
+    "city": "Stafford",
+    "state": "WV",
+    "lat": 37.3604562,
+    "lng": -81.1039119
+  },
+  {
+    "city": "Evans Station",
+    "state": "PA",
+    "lat": 39.9114773,
+    "lng": -79.6860023
+  },
+  {
+    "city": "Pottsville",
+    "state": "PA",
+    "lat": 40.6851324,
+    "lng": -76.1953701
+  },
+  {
+    "city": "Carlisle",
+    "state": "WV",
+    "lat": 37.9612226,
+    "lng": -81.1803812
+  },
+  {
+    "city": "Seek",
+    "state": "PA",
+    "lat": 39.755335,
+    "lng": -77.5766188
+  },
+  {
+    "city": "Mariposa Co.",
+    "state": "CA",
+    "lat": 37.570148,
+    "lng": -119.9036592
+  },
+  {
+    "city": "Splashdam",
+    "state": "VA",
+    "lat": 37.2161326,
+    "lng": -82.2991175
+  },
+  {
+    "city": "Krebs",
+    "state": "OK",
+    "lat": 34.9278748,
+    "lng": -95.7158221
+  },
+  {
+    "city": "Robbins",
+    "state": "TN",
+    "lat": 36.3534105,
+    "lng": -84.589385
+  },
+  {
+    "city": "Coal Creek",
+    "state": "TN",
+    "lat": 36.1658879,
+    "lng": -84.198285
+  },
+  {
+    "city": "W. Frankfort",
+    "state": "IL",
+    "lat": 37.8978275,
+    "lng": -88.9314583
+  },
+  {
+    "city": "Jeanesville",
+    "state": "PA",
+    "lat": 40.9268928,
+    "lng": -75.9705288
+  },
+  {
+    "city": "Helena",
+    "state": "AL",
+    "lat": 33.296224,
+    "lng": -86.8436004
+  },
+  {
+    "city": "Punxsutawney",
+    "state": "PA",
+    "lat": 40.9436303,
+    "lng": -78.971078
+  },
+  {
+    "city": "Lundale",
+    "state": "WV",
+    "lat": 37.8012187,
+    "lng": -81.744282
+  },
+  {
+    "city": "Farmville",
+    "state": "NC",
+    "lat": 35.5954381,
+    "lng": -77.5852496
+  },
+  {
+    "city": "Victor",
+    "state": "CO",
+    "lat": 38.7099896,
+    "lng": -105.13998
+  },
+  {
+    "city": "Penco",
+    "state": "WV",
+    "lat": 40.4088143,
+    "lng": -80.5472306
+  },
+  {
+    "city": "Trident",
+    "state": "MT",
+    "lat": 45.9481516,
+    "lng": -111.4762916
+  },
+  {
+    "city": "Benwood",
+    "state": "WV",
+    "lat": 40.0169542,
+    "lng": -80.7347236
+  },
+  {
+    "city": "Glen Rogers",
+    "state": "WV",
+    "lat": 37.7153909,
+    "lng": -81.4178819
+  },
+  {
+    "city": "Yukon",
+    "state": "WV",
+    "lat": 37.31928,
+    "lng": -81.6962205
+  },
+  {
+    "city": "Evansville",
+    "state": "IN",
+    "lat": 37.970495,
+    "lng": -87.5715641
+  },
+  {
+    "city": "Newburg",
+    "state": "WV",
+    "lat": 39.3886608,
+    "lng": -79.8530351
+  },
+  {
+    "city": "Dover",
+    "state": "NJ",
+    "lat": 40.883988,
+    "lng": -74.5621025
+  },
+  {
+    "city": "Durant",
+    "state": "OK",
+    "lat": 33.9919761,
+    "lng": -96.3776762
+  },
+  {
+    "city": "Dowell",
+    "state": "IL",
+    "lat": 37.9397727,
+    "lng": -89.2378608
+  },
+  {
+    "city": "Audenried",
+    "state": "PA",
+    "lat": 40.9117765,
+    "lng": -75.9917389
+  },
+  {
+    "city": "Port Royal",
+    "state": "PA",
+    "lat": 40.533412,
+    "lng": -77.3855442
+  },
+  {
+    "city": "Orient",
+    "state": "IL",
+    "lat": 37.9183832,
+    "lng": -88.9775715
+  },
+  {
+    "city": "Short Creek",
+    "state": "AL",
+    "lat": 34.3063957,
+    "lng": -86.1802285
+  },
+  {
+    "city": "Kimball",
+    "state": "WV",
+    "lat": 37.4280939,
+    "lng": -81.5063568
+  },
+  {
+    "city": "South Wilkes-Barre",
+    "state": "PA",
+    "lat": 41.2395489,
+    "lng": -75.8947055
+  },
+  {
+    "city": "Dunbar",
+    "state": "PA",
+    "lat": 39.977928,
+    "lng": -79.6143059
+  },
+  {
+    "city": "Nanticoke",
+    "state": "PA",
+    "lat": 41.2052654,
+    "lng": -76.0049353
+  },
+  {
+    "city": "Issaquah",
+    "state": "WA",
+    "lat": 47.5348778,
+    "lng": -122.043297
+  },
+  {
+    "city": "Ironwood",
+    "state": "MI",
+    "lat": 46.4555673,
+    "lng": -90.1684371
+  },
+  {
+    "city": "Delcambre",
+    "state": "LA",
+    "lat": 29.948261,
+    "lng": -91.9887328
+  },
+  {
+    "city": "Huntington",
+    "state": "AR",
+    "lat": 35.082152,
+    "lng": -94.263273
+  },
+  {
+    "city": "Belle Valley",
+    "state": "OH",
+    "lat": 39.7906282,
+    "lng": -81.5562357
+  },
+  {
+    "city": "Lumberport",
+    "state": "WV",
+    "lat": 39.3739761,
+    "lng": -80.3484217
+  },
+  {
+    "city": "Jenny Lind",
+    "state": "AR",
+    "lat": 35.2503711,
+    "lng": -94.3185459
+  },
+  {
+    "city": "Kitzmiller",
+    "state": "MD",
+    "lat": 39.3868681,
+    "lng": -79.1822204
+  },
+  {
+    "city": "Oskaloosa",
+    "state": "IA",
+    "lat": 41.2951037,
+    "lng": -92.6448451
+  },
+  {
+    "city": "Carbon",
+    "state": "OK",
+    "lat": 34.9262085,
+    "lng": -95.6391522
+  },
+  {
+    "city": "Browder",
+    "state": "KY",
+    "lat": 37.1972649,
+    "lng": -87.0363849
+  },
+  {
+    "city": "Gayton",
+    "state": "VA",
+    "lat": 37.6098684,
+    "lng": -77.6113779
+  },
+  {
+    "city": "Hanger",
+    "state": "VA",
+    "lat": 37.2167781,
+    "lng": -82.0067953
+  },
+  {
+    "city": "Royalton",
+    "state": "IL",
+    "lat": 37.8769946,
+    "lng": -89.1145223
+  },
+  {
+    "city": "Spangler",
+    "state": "PA",
+    "lat": 40.591942,
+    "lng": -78.791982
+  },
+  {
+    "city": "Holden",
+    "state": "WV",
+    "lat": 37.822517,
+    "lng": -82.0793487
+  },
+  {
+    "city": "West Frankfort",
+    "state": "IL",
+    "lat": 37.8978275,
+    "lng": -88.9314583
+  },
+  {
+    "city": "Madison",
+    "state": "WV",
+    "lat": 38.0670454,
+    "lng": -81.8192892
+  },
+  {
+    "city": "Montcoal",
+    "state": "WV",
+    "lat": 37.9139973,
+    "lng": -81.535666
+  },
+  {
+    "city": "Panama",
+    "state": "IL",
+    "lat": 39.0294908,
+    "lng": -89.5242529
+  },
+  {
+    "city": "Eccles",
+    "state": "WV",
+    "lat": 37.7795295,
+    "lng": -81.2653602
+  },
+  {
+    "city": "Ishpeming",
+    "state": "MI",
+    "lat": 46.488547,
+    "lng": -87.667636
+  },
+  {
+    "city": "Detroit",
+    "state": "WV",
+    "lat": 39.4457625,
+    "lng": -78.0187511
+  },
+  {
+    "city": "Raven Run",
+    "state": "PA",
+    "lat": 40.8161991,
+    "lng": -76.2535544
+  },
+  {
+    "city": "Shenandoah",
+    "state": "PA",
+    "lat": 40.8204404,
+    "lng": -76.2011079
+  },
+  {
+    "city": "Red Canyon",
+    "state": "WY",
+    "lat": 41.3472846,
+    "lng": -111.005027
+  },
+  {
+    "city": "Nazareth",
+    "state": "PA",
+    "lat": 40.7423309,
+    "lng": -75.3112095
+  },
+  {
+    "city": "Madrid",
+    "state": "NM",
+    "lat": 35.4072959,
+    "lng": -106.1520027
+  },
+  {
+    "city": "Lynn",
+    "state": "UT",
+    "lat": 41.8726955,
+    "lng": -113.744731
+  },
+  {
+    "city": "Atwater Township",
+    "state": "OH",
+    "lat": 41.026333,
+    "lng": -81.1468274
+  },
+  {
+    "city": "Chancellor",
+    "state": "CA",
+    "lat": 33.5732969,
+    "lng": -117.2051948
+  },
+  {
+    "city": "Yancey",
+    "state": "KY",
+    "lat": 36.7686984,
+    "lng": -83.3207376
+  },
+  {
+    "city": "Jacksonville",
+    "state": "IN",
+    "lat": 38.8289497,
+    "lng": -85.04884
+  },
+  {
+    "city": "Butte",
+    "state": "MT",
+    "lat": 46.0131505,
+    "lng": -112.536508
+  },
+  {
+    "city": "Farmington",
+    "state": "WV",
+    "lat": 39.5128612,
+    "lng": -80.2489715
+  },
+  {
+    "city": "Scofield",
+    "state": "UT",
+    "lat": 39.7241289,
+    "lng": -111.1607272
+  },
+  {
+    "city": "Locust Gap",
+    "state": "PA",
+    "lat": 40.7717532,
+    "lng": -76.441343
+  },
+  {
+    "city": "Marianna",
+    "state": "PA",
+    "lat": 40.0247953,
+    "lng": -80.1000562
+  },
+  {
+    "city": "Rock Castle",
+    "state": "AL",
+    "lat": 34.436477,
+    "lng": -85.7041333
+  },
+  {
+    "city": "Arista",
+    "state": "WV",
+    "lat": 37.4726158,
+    "lng": -81.2606557
+  },
+  {
+    "city": "Helper",
+    "state": "UT",
+    "lat": 39.6841305,
+    "lng": -110.854605
+  },
+  {
+    "city": "Barking",
+    "state": "PA",
+    "lat": 40.5326558,
+    "lng": -79.7787139
+  },
+  {
+    "city": "Braidwood",
+    "state": "IL",
+    "lat": 41.2650318,
+    "lng": -88.2122823
+  },
+  {
+    "city": "Cokeburg",
+    "state": "PA",
+    "lat": 40.1011832,
+    "lng": -80.0672766
+  },
+  {
+    "city": "Uneeda",
+    "state": "WV",
+    "lat": 38.0356579,
+    "lng": -81.7806761
+  },
+  {
+    "city": "Brilliant",
+    "state": "NM",
+    "lat": 36.9561352,
+    "lng": -104.5344333
+  },
+  {
+    "city": "Unknown",
+    "state": "AL",
+    "lat": 37.8816743,
+    "lng": -122.296526
+  },
+  {
+    "city": "Mocanaqua",
+    "state": "PA",
+    "lat": 41.1411944,
+    "lng": -76.1388185
+  },
+  {
+    "city": "Devils Slide",
+    "state": "UT",
+    "lat": 38.1442339,
+    "lng": -111.3228552
+  },
+  {
+    "city": "Mason",
+    "state": "WV",
+    "lat": 38.7499013,
+    "lng": -82.052456
+  },
+  {
+    "city": "Tahona",
+    "state": "OK",
+    "lat": 35.1614859,
+    "lng": -94.6032781
+  },
+  {
+    "city": "Pocahontas",
+    "state": "VA",
+    "lat": 37.3037982,
+    "lng": -81.3394611
+  },
+  {
+    "city": "Kempton",
+    "state": "MD",
+    "lat": 39.2067612,
+    "lng": -79.4854562
+  },
+  {
+    "city": "Jonesville",
+    "state": "AK",
+    "lat": 61.7305556,
+    "lng": -148.9347222
+  },
+  {
+    "city": "Belmont",
+    "state": "MT",
+    "lat": 46.2313455,
+    "lng": -108.9887716
+  },
+  {
+    "city": "Brownsville",
+    "state": "PA",
+    "lat": 40.0236854,
+    "lng": -79.8839357
+  },
+  {
+    "city": "Cheswick",
+    "state": "PA",
+    "lat": 40.5410997,
+    "lng": -79.8013437
+  }
+]
