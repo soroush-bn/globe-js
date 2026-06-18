@@ -100,8 +100,9 @@ export default function Home() {
 
       <MapLibreContainer points={points} />
       
-      <div className="absolute bottom-4 right-4 z-10 text-white text-xs opacity-50 drop-shadow-md">
-        Data from Mining disasters.xlsx & Nanaimo Archives
+      <div className="absolute bottom-8 left-4 z-10 text-white text-[10px] leading-relaxed opacity-60 max-w-4xl pointer-events-none drop-shadow-md pr-4">
+        <p>Data provided by the Centers for Disease Control and Prevention (CDC). Reference to specific data elements, datasets, or web tools does not constitute or imply its endorsement, recommendation, or favoring by the U.S. Government, the Department of Health and Human Services, or the CDC.</p>
+        <p className="mt-1">Historical data and records courtesy of the Nanaimo Community Archives, Nanaimo, British Columbia</p>
       </div>
     </main>
   );
