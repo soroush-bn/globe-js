@@ -1,18 +1,18 @@
 'use client';
 
 import React, { useEffect, useState, useRef } from 'react';
+import maplibregl from 'maplibre-gl';
+import 'maplibre-gl/dist/maplibre-gl.css';
 
-interface GlobePoint {
+interface MapPoint {
   lat: number;
   lng: number;
-  size: number;
-  color: string;
   label: string;
   details: unknown;
 }
 
 export default function Home() {
-  const [points, setPoints] = useState<GlobePoint[]>([]);
+  const [points, setPoints] = useState<MapPoint[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -21,7 +21,7 @@ export default function Home() {
         const response = await fetch('/api/data');
         const data = await response.json();
         
-        const fatalityPoints: GlobePoint[] = [];
+        const fatalityPoints: MapPoint[] = [];
         
         interface MergedRecord {
           lat?: number;
@@ -41,10 +41,12 @@ export default function Home() {
         data.forEach((record: MergedRecord) => {
           if (record.lat && record.lng && record.killed > 0) {
             for (let i = 0; i < record.killed; i++) {
-              const jitter = 0.05;
+              // Add a bit of jitter to separate overlapping points
+              const jitterLat = (Math.random() - 0.5) * 0.05;
+              const jitterLng = (Math.random() - 0.5) * 0.05;
               
               // Build a rich HTML label for the tooltip
-              let tooltipHtml = `<div style="background: rgba(0,0,0,0.8); padding: 10px; border-radius: 4px; font-family: sans-serif; font-size: 12px; color: white;">`;
+              let tooltipHtml = `<div style="font-family: sans-serif; font-size: 12px; color: #333; max-width: 250px;">`;
               
               if (record.name) {
                 // Nanaimo format
@@ -67,10 +69,8 @@ export default function Home() {
               tooltipHtml += `</div>`;
 
               fatalityPoints.push({
-                lat: record.lat + (Math.random() - 0.5) * jitter,
-                lng: record.lng + (Math.random() - 0.5) * jitter,
-                size: 0.1,
-                color: 'red',
+                lat: record.lat + jitterLat,
+                lng: record.lng + jitterLng,
                 label: tooltipHtml,
                 details: record
               });
@@ -91,81 +91,148 @@ export default function Home() {
 
   return (
     <main className="h-screen w-screen bg-black overflow-hidden relative">
-      <div className="absolute top-4 left-4 z-10 text-white pointer-events-none">
-        <h1 className="text-2xl font-bold">Mining Fatalities Globe</h1>
-        <p className="text-sm opacity-70">Each red dot represents one fatality</p>
+      <div className="absolute top-4 left-4 z-10 text-white pointer-events-none drop-shadow-md">
+        <h1 className="text-2xl font-bold">Mining Fatalities Map</h1>
+        <p className="text-sm opacity-90">Each red dot represents one fatality</p>
         {loading && <p className="mt-2 animate-pulse">Loading data...</p>}
         {!loading && <p className="mt-1">{points.length} fatalities mapped</p>}
       </div>
 
-      <GlobeContainer points={points} />
+      <MapLibreContainer points={points} />
       
-      <div className="absolute bottom-4 right-4 z-10 text-white text-xs opacity-50">
-        Data from Mining disasters.xlsx
+      <div className="absolute bottom-4 right-4 z-10 text-white text-xs opacity-50 drop-shadow-md">
+        Data from Mining disasters.xlsx & Nanaimo Archives
       </div>
     </main>
   );
 }
 
-function GlobeContainer({ points }: { points: GlobePoint[] }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const globeInstance = useRef<any>(null);
+function MapLibreContainer({ points }: { points: MapPoint[] }) {
+  const mapContainer = useRef<HTMLDivElement>(null);
+  const mapRef = useRef<maplibregl.Map | null>(null);
 
   useEffect(() => {
-    if (typeof window === 'undefined' || !containerRef.current) return;
+    if (mapRef.current) return; // initialize map only once
+    if (!mapContainer.current) return;
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    let globeObj: any;
-    const currentContainer = containerRef.current;
+    mapRef.current = new maplibregl.Map({
+      container: mapContainer.current,
+      style: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
+      center: [-98.5795, 39.8283], // Center over North America
+      zoom: 3,
+      minZoom: 2,
+    });
 
-    async function initGlobe() {
-      const Globe = (await import('globe.gl')).default;
-      
-      if (!currentContainer) return;
+    mapRef.current.on('load', () => {
+      if (!mapRef.current) return;
 
-      // The TS definitions might expect `Globe()`, but sometimes `new Globe(...)` or just ignoring the type check is required for this specific vanilla JS library's typing quirks.
-      // We will cast it to any first to bypass the strict type checker since the JS implementation is `Globe()(element)`.
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const GlobeConstructor = Globe as any;
+      mapRef.current.addSource('fatalities', {
+        type: 'geojson',
+        data: {
+          type: 'FeatureCollection',
+          features: []
+        }
+      });
 
-      globeObj = GlobeConstructor()(currentContainer)
-        .globeImageUrl('//unpkg.com/three-globe/example/img/earth-night.jpg')
-        .bumpImageUrl('//unpkg.com/three-globe/example/img/earth-topology.png')
-        .backgroundImageUrl('//unpkg.com/three-globe/example/img/night-sky.png')
-        .pointsData(points)
-        .pointLat('lat')
-        .pointLng('lng')
-        .pointColor('color')
-        .pointRadius('size')
-        .pointsMerge(true)
-        .pointAltitude(0.01)
-        .pointLabel('label');
+      mapRef.current.addLayer({
+        id: 'fatalities-layer',
+        type: 'circle',
+        source: 'fatalities',
+        paint: {
+          'circle-radius': [
+            'interpolate',
+            ['linear'],
+            ['zoom'],
+            2, 2,
+            5, 4,
+            10, 6
+          ],
+          'circle-color': '#ff0000',
+          'circle-opacity': 0.8,
+          'circle-stroke-width': 0.5,
+          'circle-stroke-color': '#ffffff'
+        }
+      });
 
-      globeObj.controls().autoRotate = true;
-      globeObj.controls().autoRotateSpeed = 0.5;
-      
-      globeInstance.current = globeObj;
-    }
+      // Create a popup, but don't add it to the map yet.
+      const popup = new maplibregl.Popup({
+        closeButton: false,
+        closeOnClick: false,
+        maxWidth: '300px'
+      });
 
-    initGlobe();
+      mapRef.current.on('mouseenter', 'fatalities-layer', (e) => {
+        if (!mapRef.current) return;
+        mapRef.current.getCanvas().style.cursor = 'pointer';
 
-    const handleResize = () => {
-      if (globeObj) {
-        globeObj.width(window.innerWidth);
-        globeObj.height(window.innerHeight);
-      }
-    };
+        if (e.features && e.features.length > 0) {
+          const feature = e.features[0];
+          if (feature.geometry.type === 'Point') {
+            // Using unknown to bypass strict any checks while accessing coordinates
+            const geom = feature.geometry as unknown as { coordinates: [number, number] };
+            const coordinates = [...geom.coordinates] as [number, number];
+            const description = feature.properties?.label;
 
-    window.addEventListener('resize', handleResize);
+            // Ensure that if the map is zoomed out such that multiple
+            // copies of the feature are visible, the popup appears
+            // over the copy being pointed to.
+            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+              coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+            }
+
+            popup.setLngLat(coordinates)
+              .setHTML(description)
+              .addTo(mapRef.current);
+          }
+        }
+      });
+
+      mapRef.current.on('mouseleave', 'fatalities-layer', () => {
+        if (!mapRef.current) return;
+        mapRef.current.getCanvas().style.cursor = '';
+        popup.remove();
+      });
+    });
 
     return () => {
-      window.removeEventListener('resize', handleResize);
-      if (currentContainer) {
-        currentContainer.innerHTML = '';
+      if (mapRef.current) {
+        mapRef.current.remove();
+        mapRef.current = null;
       }
     };
+  }, []);
+
+  useEffect(() => {
+    if (!mapRef.current) return;
+
+    const geojson = {
+      type: 'FeatureCollection',
+      features: points.map((p) => ({
+        type: 'Feature',
+        geometry: {
+          type: 'Point',
+          coordinates: [p.lng, p.lat]
+        },
+        properties: {
+          label: p.label
+        }
+      }))
+    };
+
+    const source = mapRef.current.getSource('fatalities');
+    if (source && source.type === 'geojson') {
+      // @ts-expect-error - geojson conforms to the required interface
+      (source as maplibregl.GeoJSONSource).setData(geojson);
+    } else {
+      mapRef.current.once('load', () => {
+        const s = mapRef.current?.getSource('fatalities');
+        if (s && s.type === 'geojson') {
+          // @ts-expect-error - geojson conforms to the required interface
+          (s as maplibregl.GeoJSONSource).setData(geojson);
+        }
+      });
+    }
   }, [points]);
 
-  return <div ref={containerRef} className="w-full h-full" />;
+  return <div ref={mapContainer} className="w-full h-full" />;
 }
