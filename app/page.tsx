@@ -23,16 +23,40 @@ export default function Home() {
         
         const fatalityPoints: GlobePoint[] = [];
         
-        data.forEach((record: { lat?: number; lng?: number; killed: number; mineName: string; city: string; state: string }) => {
+        data.forEach((record: any) => {
           if (record.lat && record.lng && record.killed > 0) {
             for (let i = 0; i < record.killed; i++) {
               const jitter = 0.05;
+              
+              // Build a rich HTML label for the tooltip
+              let tooltipHtml = `<div style="background: rgba(0,0,0,0.8); padding: 10px; border-radius: 4px; font-family: sans-serif; font-size: 12px; color: white;">`;
+              
+              if (record.name) {
+                // Nanaimo format
+                tooltipHtml += `<strong>${record.name}</strong><br/>`;
+                if (record.occupation) tooltipHtml += `<b>Occupation:</b> ${record.occupation}<br/>`;
+                if (record.hazard) tooltipHtml += `<b>Hazard:</b> ${record.hazard}<br/>`;
+                if (record.mineName) tooltipHtml += `<b>Mine:</b> ${record.mineName}<br/>`;
+                if (record.date) tooltipHtml += `<b>Date:</b> ${record.date}<br/>`;
+              } else {
+                // Excel format
+                tooltipHtml += `<strong>${record.mineName || 'Unknown Mine'}</strong><br/>`;
+                tooltipHtml += `<b>Location:</b> ${record.city}, ${record.state}<br/>`;
+                if (record.date) tooltipHtml += `<b>Date:</b> ${record.date}<br/>`;
+                if (record.product) tooltipHtml += `<b>Product:</b> ${record.product}<br/>`;
+                if (record.type) tooltipHtml += `<b>Type:</b> ${record.type}<br/>`;
+                // Add a note if this dot is one of many in a single incident
+                if (record.killed > 1) tooltipHtml += `<em>Note: 1 of ${record.killed} fatalities in this incident</em><br/>`;
+              }
+              
+              tooltipHtml += `</div>`;
+
               fatalityPoints.push({
                 lat: record.lat + (Math.random() - 0.5) * jitter,
                 lng: record.lng + (Math.random() - 0.5) * jitter,
                 size: 0.1,
                 color: 'red',
-                label: `${record.mineName} (${record.city}, ${record.state})`,
+                label: tooltipHtml,
                 details: record
               });
             }
