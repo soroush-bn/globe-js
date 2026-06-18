@@ -1,4 +1,5 @@
 import path from 'path';
+import fs from 'fs';
 import * as XLSX from 'xlsx';
 
 export interface FatalityRecord {
@@ -22,7 +23,8 @@ export interface GeocodedLocation {
 
 export function getRawData(): FatalityRecord[] {
   const filePath = path.join(process.cwd(), 'Mining disasters.xlsx');
-  const workbook = XLSX.readFile(filePath);
+  const fileBuffer = fs.readFileSync(filePath);
+  const workbook = XLSX.read(fileBuffer, { type: 'buffer' });
   const sheetName = workbook.SheetNames[0];
   const worksheet = workbook.Sheets[sheetName];
   

@@ -8,14 +8,20 @@ export async function GET() {
     const rawData = getRawData();
     
     // Try to load geocoded locations
-    const geocodePath = path.join(process.cwd(), 'public', 'geocoded_locations.json');
     const geocodedMap: Record<string, { lat: number, lng: number }> = {};
     
-    if (fs.existsSync(geocodePath)) {
-      const geocodeData: GeocodedLocation[] = JSON.parse(fs.readFileSync(geocodePath, 'utf-8'));
-      geocodeData.forEach(loc => {
-        geocodedMap[`${loc.city}, ${loc.state}`.toLowerCase()] = { lat: loc.lat, lng: loc.lng };
-      });
+    try {
+      const geocodePath = path.join(process.cwd(), 'public', 'geocoded_locations.json');
+      if (fs.existsSync(geocodePath)) {
+        // Inlining path.join in readFileSync helps Vercel's dependency tracer
+        const fileContent = fs.readFileSync(path.join(process.cwd(), 'public', 'geocoded_locations.json'), 'utf-8');
+        const geocodeData: GeocodedLocation[] = JSON.parse(fileContent);
+        geocodeData.forEach(loc => {
+          geocodedMap[`${loc.city}, ${loc.state}`.toLowerCase()] = { lat: loc.lat, lng: loc.lng };
+        });
+      }
+    } catch (e) {
+      console.error('Error loading geocoded locations:', e);
     }
 
     // Merge data
