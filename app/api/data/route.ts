@@ -28,12 +28,25 @@ export async function GET() {
     }
 
     // Load Nanaimo data
-    let nanaimoData: any[] = [];
+    interface NanaimoRecord {
+      name: string;
+      occupation: string;
+      hazard: string;
+      mineName: string;
+      date: string;
+      city: string;
+      state: string;
+      killed?: number;
+      lat?: number;
+      lng?: number;
+    }
+    
+    let nanaimoData: NanaimoRecord[] = [];
     try {
       const nanaimoPath = path.join(process.cwd(), 'public', 'nanaimo_data.json');
       if (fs.existsSync(nanaimoPath)) {
         const nanaimoContent = fs.readFileSync(path.join(process.cwd(), 'public', 'nanaimo_data.json'), 'utf-8');
-        nanaimoData = JSON.parse(nanaimoContent).map((record: any) => ({
+        nanaimoData = JSON.parse(nanaimoContent).map((record: NanaimoRecord) => ({
           ...record,
           killed: 1 // Since each record is one person
         }));

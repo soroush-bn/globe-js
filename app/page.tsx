@@ -23,7 +23,22 @@ export default function Home() {
         
         const fatalityPoints: GlobePoint[] = [];
         
-        data.forEach((record: any) => {
+        interface MergedRecord {
+          lat?: number;
+          lng?: number;
+          killed: number;
+          mineName?: string;
+          city?: string;
+          state?: string;
+          date?: string;
+          product?: string;
+          type?: string;
+          name?: string;
+          occupation?: string;
+          hazard?: string;
+        }
+
+        data.forEach((record: MergedRecord) => {
           if (record.lat && record.lng && record.killed > 0) {
             for (let i = 0; i < record.killed; i++) {
               const jitter = 0.05;
