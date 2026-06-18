@@ -87,6 +87,7 @@ function GlobeContainer({ points }: { points: GlobePoint[] }) {
 
       // The TS definitions might expect `Globe()`, but sometimes `new Globe(...)` or just ignoring the type check is required for this specific vanilla JS library's typing quirks.
       // We will cast it to any first to bypass the strict type checker since the JS implementation is `Globe()(element)`.
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const GlobeConstructor = Globe as any;
 
       globeObj = GlobeConstructor()(currentContainer)
